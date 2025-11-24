@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Html5Qrcode } from 'html5-qrcode';
 import { X, CheckCircle, XCircle } from 'lucide-react';
-import { confirmAttendance } from '../../../api/api';
+import { confirmAttendance } from '../../../API/api';
 import styles from './ScanQr.module.css';
 
 const ScanQr = ({ isOpen, onClose, eventId, redirection}) => {
